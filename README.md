@@ -1,4 +1,4 @@
-# PowerShell Scripts to M365
+# PowerShell Scripts to Import CSV to Microsoft 365
 
 ## Import CSV to M365 Distribution List
 ### AddUsersToDistributionLists.ps1
