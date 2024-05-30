@@ -13,7 +13,7 @@ This is a PowerShell script that will import users from a csv file and assign us
 - Prompt for name of the Distribution List
 - Provides visual feedback for each entry being imported
 - Checks whether to disconnect from session or continue (for multiple imports)
-  
+
 
 ## Import CSV to M365 Contacts
 ### ImportUsersToContacts.ps1 (Version 1.0)
@@ -27,6 +27,8 @@ This is a PowerShell script that will import a list of user email addresses from
 - Prompt user for CSV file path
 - Automatically generate a Display Name from an email address
 
+**Limitations**
+- Currently only works with a single CSV header called 'EmailAddress'
 
 
 
