@@ -1,9 +1,9 @@
-# PowerShell Scripts to Import CSV to Microsoft 365
+# Import CSV Data to Microsoft Exchange Online
 
 ## Import CSV to M365 Distribution List
 ### AddUsersToDistributionLists.ps1 (Version 1.0)
 
-This is a PowerShell script that will import a csv file and assign users to a Microsoft 365 Distributioin List or Group.
+This is a PowerShell script that will import users from a csv file and assign users to a Microsoft 365 Distributioin List or Group.
 
 **Features:**
 - Checks if the Exchange Online Management module is installed and install it if required
@@ -12,6 +12,8 @@ This is a PowerShell script that will import a csv file and assign users to a Mi
 - Prompt user for CSV file path
 - Prompt for name of the Distribution List
 - Provides visual feedback for each entry being imported
+- Checks whether to disconnect from session or continue (for multiple imports)
+  
 
 ## Import CSV to M365 Contacts
 ### ImportUsersToContacts.ps1 (Version 1.0)
