@@ -1,13 +1,15 @@
-# Import CSV to M365 Distribution List
+# PowerShell Scripts to M365
+
+## Import CSV to M365 Distribution List
+### AddUsersToDistributionLists.ps1
 
 This is a PowerShell script that will import a csv file and assign users to a Microsoft 365 Distributioin List or Group.
 
-# Pre-requisites:
+## Import CSV to M365 Contacts
+### ImportUsersToContacts.ps1
 
-# Ensure Exchange Online Management module is installed
-Install-Module -Name ExchangeOnlineManagement -Force
+This is a PowerShell script that will import a csv file and assign users to a Microsoft 365 Distributioin List or Group.
 
-# Import the Exchange Online Management module
-Connect-ExchangeOnline -UserPrincipalName $UserCredential.UserName -ShowProgress $true
+
 
 
