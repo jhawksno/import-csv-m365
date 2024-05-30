@@ -10,7 +10,8 @@ This is a PowerShell script that will import a csv file and assign users to a Mi
 - Automatically imports the Exchange Online Mangement module
 - Check if the user is already connected to the Exchange Online Mangement Module
 - Prompt user for CSV file path
-- Prompt for name of the Distribution List 
+- Prompt for name of the Distribution List
+- Provides visual feedback for each entry being imported
 
 ## Import CSV to M365 Contacts
 ### ImportUsersToContacts.ps1 (Version 1.0)
